@@ -14,7 +14,7 @@ get_dataset <- function(set_name, api_key = NULL, show_progress = FALSE) {
     url <- "https://datenservice.kof.ethz.ch/api/v1/%s/sets/%s"
     
     if(!is.null(api_key)) {
-      url <- paste0(sprintf(url, "main", set_name), "&apikey=", api_key)
+      url <- paste0(sprintf(url, "main", set_name), "?apikey=", api_key)
     } else {
       url <- sprintf(url, "public", set_name)
     }
