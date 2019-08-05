@@ -1,4 +1,4 @@
-d92df75744fb23d05b964848a2ce9755 *DESCRIPTION
+494d19f9087c422327bc3de5003c4982 *DESCRIPTION
 cb156149ea8fca510c5ebd931781c127 *NAMESPACE
 0dbba56d6ce318353fc90cddd7f80ae0 *NEWS
 8ef55afa0de6b7f3c1da54992addac6c *R/cantons.R
@@ -6,7 +6,7 @@ cb156149ea8fca510c5ebd931781c127 *NAMESPACE
 58641c664e460bcffc31886d8ff3e540 *R/get_cdc_files.R
 154dedda9a0bd10c478e5c7346ebde3f *R/get_dataset.R
 ef66adbc2d21a72764ecc10a875616b3 *R/get_legacy_key.R
-50dbc925451038badcdce4b7bd8f46cc *R/get_metadata.R
+3db3d42046d57986f72fbd50176949b5 *R/get_metadata.R
 0ee8b9ca7bafd246c5f9908bf8827995 *R/get_quota.R
 a16f862aeda3f7e45a3f9b74e53a0d1d *R/get_time_series.R
 fbc367a6a0a1d5843c23bfa533604be9 *R/json_to_ts.R
@@ -32,7 +32,7 @@ eeb0f0fc627c1a119cd186f2e462c496 *man/cantons.Rd
 e5f66516dd76d4ea2dc3d5b96f96f4ce *man/translate_legacy_keys.Rd
 ddf3a8639e0f19839ced47355d0d96dc *tests/testthat.R
 f342c536e33495f2070e94b21eacec7b *tests/testthat/test_get_dataset.R
-ce284695fd54bc80beebd4d919e1fe29 *tests/testthat/test_get_metadata.R
+5e25f258ef5a4792263d36192fac9e48 *tests/testthat/test_get_metadata.R
 d5ef005e8759864da6de1abdc94fffa2 *tests/testthat/test_get_remaining_quota.R
 ba54a3cd3a3da42cf12ac17eddccd0b5 *tests/testthat/test_get_time_series.R
 f3419797e006e15f1acb40d2501b0b78 *tests/testthat/test_list_keys.R
