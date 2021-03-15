@@ -1,4 +1,4 @@
-0e74376b933c6fae0004256b9eb57381 *DESCRIPTION
+8ca53855698b6db91db1a3a80de07c1e *DESCRIPTION
 2451593f71224197acf011562e930f33 *NAMESPACE
 9f5047510613c27bcde341f77470d436 *NEWS
 8ef55afa0de6b7f3c1da54992addac6c *R/cantons.R
@@ -10,7 +10,7 @@ ef66adbc2d21a72764ecc10a875616b3 *R/get_legacy_key.R
 0ee8b9ca7bafd246c5f9908bf8827995 *R/get_quota.R
 90fe9a1fc6e4037ef85a1302f1a10467 *R/get_time_series.R
 b3995d1a25d7f5bfe0b625c6671c9b74 *R/json_to_ts.R
-3e7515f5ff9f626237f895d864c8f3b8 *R/list_available_sets.R
+0333c27a268a4405caddbb405bdc7ba8 *R/list_available_sets.R
 4af5afe5e6d6663d5d2dbc875c4919b0 *R/list_cached_files.R
 8652c103caca54476917e28b3579f94b *R/list_keys_in_set.R
 8cdca267b7278d6a832d1188c87b0589 *R/start_key_explorer.R
