@@ -7,14 +7,13 @@
 list_available_sets(api_key = NULL)
 }
 \arguments{
-\item{api_key}{Your API key. This is only needed if accessing non-public sets}
+\item{api_key}{\strong{character} Your API key. An API key is needed if accessing non-public timeseries. 
+If downloading public timeseries parameter can be omitted.}
 }
 \value{
 A data frame with the names, descriptions and public availability of datasets. These sets can be downloaded via get_dataset.
 }
 \description{
+This function is deprecated. Use \code{\link{list_available_collections}} instead.
 Sets are pre-defined lists of time series. Sets are the convenient alternative to concatenating many series in an URL.
-}
-\examples{
-list_available_sets()
 }

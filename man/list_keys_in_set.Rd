@@ -9,7 +9,8 @@ list_keys_in_set(setname, api_key = NULL)
 \arguments{
 \item{setname}{The name of the set}
 
-\item{api_key}{Your API key. This is only needed if accessing non-public sets}
+\item{api_key}{\strong{character} Your API key. An API key is needed if accessing non-public timeseries. 
+If downloading public timeseries parameter can be omitted.}
 }
 \value{
 If a single set name is provided, a vector of time series keys.
@@ -17,7 +18,4 @@ If multiple set names are provided, a list of vectors of time series keys.
 }
 \description{
 List the keys of all time series in a set. To learn more about specific keys, use get_metadata.
-}
-\examples{
-list_keys_in_set("ds_kmi_mixed_freq")
 }
